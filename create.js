@@ -23,4 +23,4 @@ createPostButton.onclick = () => {
   }
 
   // redirect to home page
-  location.href = "/Project-01_BLOGG-Website/index.html";
+  location.href = "/";
