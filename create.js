@@ -24,3 +24,4 @@ createPostButton.onclick = () => {
 
   // redirect to home page
   location.href = "/";
+};
