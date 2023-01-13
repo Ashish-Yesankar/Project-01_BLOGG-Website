@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Create Post</title>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <script
+      defer
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="container mt-4">
+      <div class="mb-3">
+        <label for="title" class="form-label">Title</label>
+        <input
+          type="text"
+          class="form-control"
+          id="title"
+          placeholder="Give an eye Catching title"
+        />
+      </div>
+
+      <div>
+        <label for="Intro" class="form-label">Intro</label>
+        <textarea class="form-control" id="intro" rows="3" placeholder="Set a short context before going forword"></textarea>
+      </div>
+
+      <div class="mb-3" style="-webkit-line-clamp:3">
+        <label for="description" class="form-label">Description</label>
+        <textarea class="form-control" id="description"  rows="10" placeholder="Go wild and start writing, I mean typing..."></textarea>
+      </div>
+
+      <div class="mb-3">
+        <label for="image" class="form-label">Image</label>
+        <input class="form-control" id="image-link"  placeholder="Keep your blog visually attractive by giving an image url" ></input>
+      </div>
+      <button id="create-post" class="btn btn-primary rounded-2 btn-sm" style="height: fit-content;">Create Post</button>
+    </div>
+    <script src="create.js"></script>
+  </body>
+</html>
