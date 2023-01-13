@@ -4,7 +4,7 @@ const createBlogCard = (title, date, intro) => {
             <p class="text-sm" style="color: rgb(128, 128, 128);">${date.toGMTString()}</p>
             <h3 id="tit" style="font-size: 16px;">${title}</h3>
             <p>${intro}</p>
-            <a id="show-post" class="text-primary" href="/view.html" onclick="return getTitle('${title}'); return false;" style="text-decoration: none;">Read Full Story</a>
+            <a id="show-post" class="text-primary" href="/Project-01_BLOGG-Website/view.html" onclick="return getTitle('${title}'); return false;" style="text-decoration: none;">Read Full Story</a>
         </div>
     `;
 };
